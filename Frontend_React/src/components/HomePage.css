@@ -1,0 +1,14 @@
+.home-page-container {
+  background-image: url('https://classpass-res.cloudinary.com/image/upload/f_auto/q_auto/xdeg7ycunckzajqxoh7k.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.home-page-content{
+  margin-bottom: 100px;
+}
+  

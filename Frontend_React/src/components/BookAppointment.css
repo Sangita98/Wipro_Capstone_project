@@ -1,0 +1,44 @@
+.appointment-container {
+  background-image: url('https://img.freepik.com/free-photo/herbal-compress-herbal-spa-treatment-equipments-put-dark-floor_1150-34493.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent repeating of the image */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+.appointment-box {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  
+}
+.welcome{
+  color: black;
+  text-align: center;
+}
+
+.login-link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.login-link p {
+  font-size: 14px;
+  color: #555;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

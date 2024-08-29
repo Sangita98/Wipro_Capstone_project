@@ -1,0 +1,69 @@
+.appointments-container {
+    background-image: url('https://t4.ftcdn.net/jpg/07/99/17/95/360_F_799179552_MsemnxwQUHUzy4BIFe3Eub9cGFB9aTXa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+  }
+  
+  h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  .apps{
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .backbtn{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  td {
+    color: #333;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:last-child {
+    margin-right: 0;
+  }
+  

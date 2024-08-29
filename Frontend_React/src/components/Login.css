@@ -1,0 +1,22 @@
+/* Background image and centering */
+.login-container {
+  background-image: url('https://wallpaperaccess.com/full/3776507.jpg'); /* Update this with your image path */
+  background-size: cover;
+  background-position: center;
+  font-size: large;
+}
+
+/* Transparent card with frosted glass effect */
+.login-box {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+.login{
+  color: black;
+  font-weight: bold;
+}

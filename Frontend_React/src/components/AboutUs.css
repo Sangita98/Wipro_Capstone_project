@@ -1,0 +1,29 @@
+/* Styles for body background color */
+body {
+   background-image: url('https://www.aestheticspro.com/Blog/How-To-Open-Your-Own-Spa-Business/images/Spa-Background.jpg');/* Set your desired background color */
+  
+  }
+  
+  /* Styles for the container box holding all images */
+  .team-container {
+    background: none;
+    backdrop-filter: blur(5px);/* Set the background color of the box */
+    padding: 20px; /* Add padding around the content */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    
+  }
+  
+  /* Styles for individual team member images */
+  .team-member-box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+  }
+  .text-color, h5{
+    color: black;
+  }
+  .meet{
+    color: black;
+  }
+  

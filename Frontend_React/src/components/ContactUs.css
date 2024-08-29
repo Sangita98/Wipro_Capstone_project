@@ -1,0 +1,99 @@
+/* Ensure the body takes up the full height of the viewport */
+body {
+  /* margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;*/
+  
+  align-items: center;
+  justify-content: center; 
+  background-image: url('https://www.aestheticspro.com/Blog/How-To-Open-Your-Own-Spa-Business/images/Spa-Background.jpg'); /* Add your background image */
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  /* background-blur: 10px; For blur effect if supported */
+  
+}
+  .head {
+    font: bold;
+    color: aliceblue;
+    font-size: 6rem;
+    text-align: center;
+    justify-content: center;
+  }
+  #form{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    color: black;
+    
+  }
+  
+  /* Style the container to center its content */
+  .contact-container {
+    /* Remove white background */
+    background: none; /* Or rgba(0, 0, 0, 0) for transparent black */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Set a max width for the box */
+    text-align: center;
+    /* Apply blur effect */
+    backdrop-filter: blur(5px); /* Adjust blur amount as needed */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+  }
+  
+  /* Style the heading */
+  .head {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  h1 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  /* Style the contact details */
+  .contact-details {
+    color: black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  /* Style each contact item */
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style icons */
+  .contact-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  /* Style the contact list items */
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the contact list items */
+  .contact-list li {
+    margin-bottom: 5px;
+  }

@@ -1,0 +1,39 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s ease; /* Smooth hover effect */
+    font-size: medium;
+    backdrop-filter: blur(5px);
+    /* background: none; */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .card-img-top {
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+  }
+  .bgimage{
+    background-image: url('https://t3.ftcdn.net/jpg/00/45/27/00/360_F_45270035_xs5LemZ7pbjm1vIbMGLoA0YRDB9hxOxl.jpg');
+                  min-height: 100vh;
+                  background-size: cover;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  vertical-align: auto;
+                  
+  
+  }
+  .card-text{
+    font-weight: lighter;
+  }
+  .card-title{
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+ 

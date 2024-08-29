@@ -1,0 +1,28 @@
+/* Ensure that the body and html take up full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url('https://asset.gecdesigns.com/img/background-templates/teamwork-concept-isometric-background-template-1612282719399-cover.webp');*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    position: absolute; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+   
+  } 
+  
+  
+  .container {
+    margin-top: 70px; 
+  }
+ 
+  /*.content-wrapper {
+    padding: 20px;
+    background-color: #f8f9fa; 
+    min-height: 100vh;
+  }*/
+  
